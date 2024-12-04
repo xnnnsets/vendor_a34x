@@ -3142,7 +3142,7 @@ PRODUCT_PACKAGES += \
     mediatek-ims-base \
     android.hardware.health@2.1-samsung.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
-    android.hardware.sensors@2.0-multihal.xml \
+#    android.hardware.sensors@2.0-multihal.xml \
     android.hardware.wifi.hostapd.xml \
     android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \

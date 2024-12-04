@@ -323,7 +323,7 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
+/*prebuilt_etc_xml {
 	name: "android.hardware.sensors@2.0-multihal.xml",
 	owner: "samsung",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@2.0-multihal.xml",
@@ -331,6 +331,7 @@ prebuilt_etc_xml {
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
+*/
 
 prebuilt_etc_xml {
 	name: "android.hardware.wifi.hostapd.xml",
