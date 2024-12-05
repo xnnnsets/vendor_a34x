@@ -3126,7 +3126,6 @@ PRODUCT_PACKAGES += \
     AccessibilityMenu \
     ApmService \
     CarrierConfig \
-    GoogleFeedback \
     GoogleServicesFramework \
     MtkEmergencyInfo \
     SetupWizard \
