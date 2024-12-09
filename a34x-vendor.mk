@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/samsung/a34x/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
     vendor/samsung/a34x/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/samsung/a34x/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/fs_config_dirs:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_dirs \
