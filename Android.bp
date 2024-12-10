@@ -39,14 +39,6 @@ prebuilt_apex {
 	soc_specific: true,
 }
 
-prebuilt_apex {
-	name: "com.android.vndk.v31",
-	owner: "samsung",
-	src: "proprietary/system_ext/apex/com.android.vndk.v31.apex",
-	filename: "com.android.vndk.v31.apex",
-	system_ext_specific: true,
-}
-
 android_app_import {
 	name: "GoogleTetheringResOverlay",
 	owner: "samsung",
