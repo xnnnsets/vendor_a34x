@@ -7,17 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/system_ext/bin/AudioSetParam:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/AudioSetParam \
-    vendor/samsung/a34x/proprietary/system_ext/bin/boot_logo_updater:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/boot_logo_updater \
-    vendor/samsung/a34x/proprietary/system_ext/bin/connsyslogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/connsyslogger \
-    vendor/samsung/a34x/proprietary/system_ext/bin/emdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger \
-    vendor/samsung/a34x/proprietary/system_ext/bin/loghidlsysservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/loghidlsysservice \
-    vendor/samsung/a34x/proprietary/system_ext/bin/mdi_redirector:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdi_redirector \
-    vendor/samsung/a34x/proprietary/system_ext/bin/mdi_redirector_ctrl:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdi_redirector_ctrl \
-    vendor/samsung/a34x/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
-    vendor/samsung/a34x/proprietary/system_ext/bin/netdiag:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/netdiag \
-    vendor/samsung/a34x/proprietary/system_ext/bin/terservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/terservice \
-    vendor/samsung/a34x/proprietary/system_ext/bin/thermald:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/thermald \
-    vendor/samsung/a34x/proprietary/system_ext/bin/trace:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/trace \
     vendor/samsung/a34x/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/aee-commit:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-commit \
@@ -31,27 +20,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/system_ext/etc/audio_policy_engine_stream_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_engine_stream_volumes.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/audio_policy_volumes.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
-    vendor/samsung/a34x/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/samsung/a34x/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/fs_config_dirs:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_dirs \
     vendor/samsung/a34x/proprietary/system_ext/etc/fs_config_files:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_files \
-    vendor/samsung/a34x/proprietary/system_ext/etc/group:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/group \
     vendor/samsung/a34x/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/bootlogoupdater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/bootlogoupdater.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/consyslogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/consyslogger.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/emdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger.rc \
     vendor/samsung/a34x/proprietary/system_ext/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.aee.rc \
     vendor/samsung/a34x/proprietary/system_ext/etc/init/hw/init.usb.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.usb.rc \
     vendor/samsung/a34x/proprietary/system_ext/etc/init/hw/meta_init.system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/meta_init.system.rc \
     vendor/samsung/a34x/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/init.lbs_dbg.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lbs_dbg.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/init.thermald.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.thermald.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/loghidlsysservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/loghidlsysservice.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/mdi_redirector.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdi_redirector.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
     vendor/samsung/a34x/proprietary/system_ext/etc/init/netdiag.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/netdiag.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/init/terserver.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/terserver.rc \
-    vendor/samsung/a34x/proprietary/system_ext/etc/mtklog-config.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/mtklog-config.prop \
     vendor/samsung/a34x/proprietary/system_ext/etc/nr-city.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nr-city.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
     vendor/samsung/a34x/proprietary/system_ext/etc/permissions/com.android.emergency.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.emergency.xml \
@@ -334,16 +311,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/samsung/a34x/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/samsung/a34x/proprietary/system_ext/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.pq_aidl-V2-ndk.so \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP00.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP00.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP07.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP07.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP08.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP08.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP12.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP12.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP15.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP15.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP18.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP18.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP20.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP20.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-content-OP236.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-content-OP236.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-info.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-info.txt \
-    vendor/samsung/a34x/proprietary/system_ext/usp/usp-packages-all.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/usp/usp-packages-all.txt \
     vendor/samsung/a34x/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/samsung/a34x/proprietary/vendor/bin/add.pb:$(TARGET_COPY_OUT_VENDOR)/bin/add.pb \
     vendor/samsung/a34x/proprietary/vendor/bin/adsp_log:$(TARGET_COPY_OUT_VENDOR)/bin/adsp_log \
@@ -3112,31 +3079,12 @@ PRODUCT_PACKAGES += \
     com.samsung.android.biometrics.face.signed \
     com.samsung.android.biometrics.fingerprint.signed \
     com.samsung.android.camera.unihal.signed \
-    com.android.vndk.v31 \
-    ImsSettings \
     GoogleTetheringResOverlay \
     InProcessTetheringResOverlay \
     TetheringResOverlay \
     HotwordEnrollmentOKGoogleEx4RISCV \
     HotwordEnrollmentXGoogleEx4RISCV \
-    MDMLSample \
-    mediatek-res \
-    AccessibilityMenu \
-    ApmService \
-    CarrierConfig \
-    GoogleServicesFramework \
-    MtkEmergencyInfo \
-    SetupWizard \
-    StorageManager \
-    SystemUI \
-    WallpaperCropper \
-    CustomPropInterface \
     com.android.hotwordenrollment.common.util \
-    duraspeed \
-    log-handler \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
     android.hardware.health@2.1-samsung.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
 #    android.hardware.sensors@2.0-multihal.xml \
