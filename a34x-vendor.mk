@@ -3013,8 +3013,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.2.so \
     vendor/samsung/a34x/proprietary/vendor/lib64/vendor.samsung.hardware.wifi@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.wifi@2.3.so \
     vendor/samsung/a34x/proprietary/vendor/lib64/vintf-codecsolution-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vintf-codecsolution-V2-ndk_platform.so \
-    vendor/samsung/a34x/proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
-    vendor/samsung/a34x/proprietary/vendor/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/build.prop \
     vendor/samsung/a34x/proprietary/vendor/recovery-from-boot.p:$(TARGET_COPY_OUT_VENDOR)/recovery-from-boot.p \
     vendor/samsung/a34x/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     vendor/samsung/a34x/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
@@ -3071,9 +3069,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a34x/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
     vendor/samsung/a34x/proprietary/vendor/tee/ffffffff-0000-0000-0000-000000000030:$(TARGET_COPY_OUT_VENDOR)/tee/ffffffff-0000-0000-0000-000000000030 \
     vendor/samsung/a34x/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100 \
-    vendor/samsung/a34x/proprietary/vendor/vendor_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/NOTICE.xml.gz \
-    vendor/samsung/a34x/proprietary/vendor/vendor_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/vendor_dlkm/etc/build.prop
-
 PRODUCT_PACKAGES += \
     com.samsung.android.authfw.ta.preload \
     com.samsung.android.biometrics.face.signed \
