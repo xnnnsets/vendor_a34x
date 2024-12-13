@@ -3142,7 +3142,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
-    power-default.xml \
     sec.android.hardware.nfc@1.2-service.xml \
     vendor.samsung.hardware.authfw@1.0-manifest.xml \
     vendor.samsung.hardware.biometrics.fingerprint@3.0-service.xml \
