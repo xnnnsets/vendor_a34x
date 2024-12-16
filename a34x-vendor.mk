@@ -3137,8 +3137,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-samsung.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
     android.hardware.sensors@2.0-multihal.xml \
-    android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
     manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
@@ -3148,10 +3146,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.radio.exclude.mediatek.xml \
     vendor.samsung.hardware.radio.exclude_ship.mediatek.xml \
     vendor.samsung.hardware.radio_manifest_2_30.xml \
-    vendor.samsung.hardware.security.fkeymaster-service.xml \
-    vendor.samsung.hardware.security.hdcp.wifidisplay-default.xml \
-    vendor.samsung.hardware.security.widevine.keyprov-service.xml \
-    vendor.samsung.hardware.security.wsm.service-manifest.xml \
     vendor.samsung.hardware.sehradio_manifest_2_30.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml \
