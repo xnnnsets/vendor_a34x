@@ -3153,7 +3153,6 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.security.widevine.keyprov-service.xml \
     vendor.samsung.hardware.security.wsm.service-manifest.xml \
     vendor.samsung.hardware.sehradio_manifest_2_30.xml \
-    vendor.samsung.hardware.snap-default.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     vendor.samsung.hardware.tlc.hdm@1.1-manifest.xml \
     vendor.samsung.hardware.tlc.iccc@1.0-manifest.xml \
