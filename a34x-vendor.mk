@@ -3111,29 +3111,17 @@ PRODUCT_PACKAGES += \
     com.samsung.android.biometrics.fingerprint.signed \
     com.samsung.android.camera.unihal.signed \
     com.android.vndk.v31 \
-    ImsSettings \
     GoogleTetheringResOverlay \
     InProcessTetheringResOverlay \
     TetheringResOverlay \
     HotwordEnrollmentOKGoogleEx4RISCV \
     HotwordEnrollmentXGoogleEx4RISCV \
-    MDMLSample \
-    mediatek-res \
-    AccessibilityMenu \
-    ApmService \
-    CarrierConfig \
-    MtkEmergencyInfo \
-    SetupWizard \
-    StorageManager \
-    SystemUI \
-    WallpaperCropper \
     CustomPropInterface \
     com.android.hotwordenrollment.common.util \
     duraspeed \
     log-handler \
     mediatek-common \
     mediatek-framework \
-    mediatek-ims-base \
     android.hardware.health@2.1-samsung.xml \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml \
     android.hardware.sensors@2.0-multihal.xml \
